@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+*.egg-info/
+dist/
+build/
+
+# Virtual envs
+.venv/
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (do not commit the Excel workbook)
+data/*.xlsx
+data/*.xls
+*.xlsx
+*.xls
+
+# Local artifacts (uncomment if you want to gitignore pipeline outputs)
+# Chapter5_EWS_outputs/
